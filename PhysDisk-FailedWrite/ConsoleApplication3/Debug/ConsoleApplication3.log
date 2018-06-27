@@ -1,0 +1,3 @@
+﻿  ConsoleApplication3.cpp
+c:\users\rick\source\repos\consoleapplication3\consoleapplication3\consoleapplication3.cpp(16): warning C4101: 'FilePos': unreferenced local variable
+  ConsoleApplication3.vcxproj -> C:\Users\Rick\source\repos\ConsoleApplication3\Debug\ConsoleApplication3.exe

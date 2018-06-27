@@ -1,0 +1,22 @@
+﻿  Building 'KMDF Driver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\KMDFDriver1.inf
+  Stamping [Version] section with DriverVer=06/21/2018,12.2.5.627
+  Driver.c
+  KMDF Driver1.vcxproj -> C:\Users\Rick\source\repos\KMDF Driver1\x64\Debug\KMDFDriver1.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Rick\source\repos\KMDF Driver1\x64\Debug\KMDFDriver1.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Rick\source\repos\KMDF Driver1\x64\Debug\KMDF Driver1\kmdfdriver1.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Rick\source\repos\KMDF Driver1\x64\Debug\KMDF Driver1\kmdfdriver1.cat
+  

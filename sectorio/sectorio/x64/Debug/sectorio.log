@@ -1,0 +1,16 @@
+﻿  Building 'sectorio' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\sectorio.inf
+  Stamping [Version] section with DriverVer=06/24/2018,19.56.17.660
+  sector.c
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(315): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'ULONG'
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(315): warning C4213: nonstandard extension used: cast on l-value
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(240): warning C4101: 'OldIrql': unreferenced local variable
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(239): warning C4101: 'pData': unreferenced local variable
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(418): warning C4100: 'DeviceObject': unreferenced formal parameter
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(430): warning C4100: 'pRegistryPath': unreferenced formal parameter
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(434): warning C4101: 'ulIndex': unreferenced local variable
+c:\users\rick\source\repos\sectorio\sectorio\sector.c(528): warning C4100: 'pDriverObject': unreferenced formal parameter
+  sectorio.vcxproj -> C:\Users\Rick\source\repos\sectorio\x64\Debug\sectorio.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Rick\source\repos\sectorio\x64\Debug\sectorio.sys
+  

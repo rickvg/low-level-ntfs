@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sectorio", "sectorio\sectorio.vcxproj", "{60BD6FAB-1239-4745-B630-EFC193A4C499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM.ActiveCfg = Debug|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM.Build.0 = Debug|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM.Deploy.0 = Debug|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM64.Build.0 = Debug|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x64.ActiveCfg = Debug|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x64.Build.0 = Debug|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x64.Deploy.0 = Debug|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x86.ActiveCfg = Debug|Win32
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x86.Build.0 = Debug|Win32
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Debug|x86.Deploy.0 = Debug|Win32
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM.ActiveCfg = Release|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM.Build.0 = Release|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM.Deploy.0 = Release|ARM
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM64.ActiveCfg = Release|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM64.Build.0 = Release|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|ARM64.Deploy.0 = Release|ARM64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x64.ActiveCfg = Release|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x64.Build.0 = Release|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x64.Deploy.0 = Release|x64
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x86.ActiveCfg = Release|Win32
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x86.Build.0 = Release|Win32
+		{60BD6FAB-1239-4745-B630-EFC193A4C499}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49BB8709-DDEE-487E-983C-D03019A8DD19}
+	EndGlobalSection
+EndGlobal

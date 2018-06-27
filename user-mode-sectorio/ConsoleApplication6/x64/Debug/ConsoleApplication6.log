@@ -1,0 +1,8 @@
+﻿  ConsoleApplication6.cpp
+c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(61): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(61): note: consider using '%zd' in the format string
+c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(28): warning C4101: 'filePart': unreferenced local variable
+c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(45): warning C4101: 'endptr': unreferenced local variable
+c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(29): warning C4101: 'sysDir': unreferenced local variable
+c:\users\rick\source\repos\consoleapplication6\consoleapplication6\consoleapplication6.cpp(27): warning C4101: 'drvFullPath': unreferenced local variable
+  ConsoleApplication6.vcxproj -> C:\Users\Rick\source\repos\ConsoleApplication6\x64\Debug\ConsoleApplication6.exe

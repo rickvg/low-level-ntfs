@@ -1,0 +1,2 @@
+﻿  ConsoleApplication3.cpp
+c:\program files (x86)\windows kits\8.1\include\um\combaseapi.h(229): error C2760: syntax error: unexpected token 'identifier', expected 'type specifier'

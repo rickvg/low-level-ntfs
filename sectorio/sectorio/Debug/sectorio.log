@@ -1,0 +1,18 @@
+﻿  Building 'sectorio' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\sectorio.inf
+  Stamping [Version] section with DriverVer=06/21/2018,16.0.5.532
+  sectorio.vcxproj -> c:\Users\Rick\source\repos\sectorio\Debug\sectorio.sys
+  ...........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  c:\Users\Rick\source\repos\sectorio\Debug\sectorio\sectorio.cat
+  Done Adding Additional Store
+  Successfully signed: c:\Users\Rick\source\repos\sectorio\Debug\sectorio\sectorio.cat
+  

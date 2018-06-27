@@ -1,0 +1,86 @@
+;
+; sectorio.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=sectorio.cat
+DriverVer = 06/21/2018,16.0.5.532
+
+[DestinationDirs]
+DefaultDestDir = 12
+sectorio_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+sectorio.sys  = 1,,
+WdfCoInstaller01009.dll=1 ; make sure the number matches with SourceDisksNames
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTx86
+
+[Standard.NTx86]
+%sectorio.DeviceDesc%=sectorio_Device, Root\sectorio ; TODO: edit hw-id
+
+[sectorio_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+sectorio.sys
+
+;-------------- Service installation
+[sectorio_Device.NT.Services]
+AddService = sectorio,%SPSVCINST_ASSOCSERVICE%, sectorio_Service_Inst
+
+; -------------- sectorio driver install sections
+[sectorio_Service_Inst]
+DisplayName    = %sectorio.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\sectorio.sys
+
+;
+;--- sectorio_Device Coinstaller installation ------
+;
+
+[sectorio_Device.NT.CoInstallers]
+AddReg=sectorio_Device_CoInstaller_AddReg
+CopyFiles=sectorio_Device_CoInstaller_CopyFiles
+
+[sectorio_Device_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[sectorio_Device_CoInstaller_CopyFiles]
+WdfCoInstaller01009.dll
+
+[sectorio_Device.NT.Wdf]
+KmdfService =  sectorio, sectorio_wdfsect
+[sectorio_wdfsect]
+KmdfLibraryVersion = 1.9
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "sectorio Installation Disk"
+sectorio.DeviceDesc = "sectorio Device"
+sectorio.SVCDESC = "sectorio Service"
